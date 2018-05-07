@@ -25,11 +25,11 @@ function dec(n) {
 }
 
 function makeInt(n) {
- if parseInt(n,10) = "NAN"
- return "Nan"
+ if (parseInt(n,10) === "NAN"){
+ return "Nan";
+ }
+ else {
  return parseInt(n, 10);
-}
+}}
 
-function makeInt(n) {
- return parseInt(n);
-}
+
