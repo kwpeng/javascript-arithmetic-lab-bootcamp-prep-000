@@ -23,3 +23,5 @@ function inc(n) {
 function dec(n) {
   return --n;
 }
+
+console.log(dec(5))
