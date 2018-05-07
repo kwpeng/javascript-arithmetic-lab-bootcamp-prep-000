@@ -32,5 +32,5 @@ function makeInt(n) {
  return parseInt(n, 10);
 }}
 
-console.log(makeInt(5))
+console.log(makeInt(nope))
 
