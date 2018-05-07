@@ -6,11 +6,12 @@ function subtract(a,b) {
  return a-b;
 }
 
-console.log (subtract(3,4))
 
 function multiply(a,b){
  return a*b;
 }
+
+console.log (multiply(3,4))
 
 function divide(a,b){
  return a/b;
