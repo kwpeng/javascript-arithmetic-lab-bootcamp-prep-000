@@ -37,6 +37,6 @@ function preserveDecimal(n) {
  return "Nan";
  }
  else {
- return parseFlat-=t(n);
+ return parseFloat(n);
 }}
 
