@@ -21,5 +21,5 @@ function inc(n) {
 console.log(inc(5))
 
 function dec(n) {
-  return n--;
+  return --n;
 }
