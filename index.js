@@ -32,4 +32,11 @@ function makeInt(n) {
  return parseInt(n, 10);
 }}
 
+function makeFloat(n) {
+ if (parseInt(n,10) === "NAN"){
+ return "Nan";
+ }
+ else {
+ return parseInt(n, 10);
+}}
 
