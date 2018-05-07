@@ -16,9 +16,9 @@ function divide(a, b){
 }
 
 function inc(n) {
-  return ++n ;
+  return ++n;
 }
-console.log(inc(5))
+
 
 function dec(n) {
   return --n;
