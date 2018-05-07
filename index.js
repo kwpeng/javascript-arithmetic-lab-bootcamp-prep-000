@@ -33,10 +33,10 @@ function makeInt(n) {
 }}
 
 function preserveDecimal(n) {
- if (parseInt(n,10) === "NAN"){
+ if (parseFloat(n) === "NAN"){
  return "Nan";
  }
  else {
- return parseInt(n, 10);
+ return parseFlat-=t(n);
 }}
 
